@@ -1,12 +1,8 @@
 import "./App.css";
-import LATaxCalculator from "./Calculator";
+import Calculator from "./components/Calculator";
 
 function App() {
-  return (
-    <>
-      <LATaxCalculator />
-    </>
-  );
+  return <Calculator />;
 }
 
 export default App;
